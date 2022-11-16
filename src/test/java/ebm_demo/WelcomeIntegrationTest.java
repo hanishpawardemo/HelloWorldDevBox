@@ -27,6 +27,8 @@ public class WelcomeIntegrationTest {
     public void setup(){
         restTemplate = new TestRestTemplate();
         headers = new HttpHeaders();
+        headers.add("Accept", MediaType.APPLICATION_JSON_VALUE);
+        headers.add("Content-Type", MediaType.APPLICATION_JSON_VALUE);
     }
 
     @Test
