@@ -29,7 +29,6 @@ public class WelcomeIntegrationTest {
         headers = new HttpHeaders();
         headers.add("Accept", MediaType.APPLICATION_JSON_VALUE);
         headers.add("Content-Type", MediaType.APPLICATION_JSON_VALUE);
-        headers.add("Brand", "Unknown");
     }
 
     @Test
